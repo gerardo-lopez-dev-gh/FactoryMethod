@@ -2,13 +2,6 @@
 
 Este repositorio contiene una implementación del patrón **Factory Method** en Java, tanto en su versión clásica como en una variante simplificada.
 
-## 📚 Contenido
-- [Qué es el patrón Factory Method](#qué-es-el-patrón-factory-method)
-- [Estructura del proyecto](#estructura-del-proyecto)
-- [Cómo ejecutar](#cómo-ejecutar)
-- [Tecnologías utilizadas](#tecnologías-utilizadas)
-- [Ejemplo de uso](#ejemplo-de-uso)
-
 ## 🌟 Qué es el patrón Factory Method
 **English**  
 The Factory Method pattern defines an interface for creating objects, but lets subclasses decide which class to instantiate. This provides flexibility and promotes loose coupling.
