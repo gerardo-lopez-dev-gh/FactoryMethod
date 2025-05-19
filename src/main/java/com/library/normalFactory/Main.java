@@ -7,7 +7,19 @@ import com.library.normalFactory.factory.VehicleFactory;
 public class Main {
     public static void main(String[] args) {
         VehicleFactory vehicleFactory = new VehicleFactory();
-        Vehicle vehicle = vehicleFactory.createVehicle("Plane");
-        vehicle.start();
+        Vehicle car = vehicleFactory.createVehicle("car");
+        Vehicle truck = vehicleFactory.createVehicle("truck");
+        Vehicle plane = vehicleFactory.createVehicle("plane");
+        Vehicle motorcycle = vehicleFactory.createVehicle("motorcycle");
+
+        car.start();
+        truck.start();
+        plane.start();
+        motorcycle.start();
+
+        car.stop();
+        truck.stop();
+        plane.stop();
+        motorcycle.stop();
     }
 }
