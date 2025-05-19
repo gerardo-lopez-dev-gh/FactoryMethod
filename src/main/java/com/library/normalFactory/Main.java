@@ -6,11 +6,13 @@ import com.library.normalFactory.factory.VehicleFactory;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+        // Create a VehicleFactory instance
+
         VehicleFactory vehicleFactory = new VehicleFactory();
-        Vehicle car = vehicleFactory.createVehicle("car");
-        Vehicle truck = vehicleFactory.createVehicle("truck");
-        Vehicle plane = vehicleFactory.createVehicle("plane");
-        Vehicle motorcycle = vehicleFactory.createVehicle("motorcycle");
+        Vehicle car = vehicleFactory.createVehicle(TypeOfVehicle.CAR.name());
+        Vehicle truck = vehicleFactory.createVehicle(TypeOfVehicle.TRUCK.name());
+        Vehicle plane = vehicleFactory.createVehicle(TypeOfVehicle.PLANE.name());
+        Vehicle motorcycle = vehicleFactory.createVehicle(TypeOfVehicle.MOTORCYCLE.name());
 
         car.start();
         truck.start();
